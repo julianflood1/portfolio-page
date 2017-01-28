@@ -23,7 +23,8 @@ width: 100%;
   font-size: 60px;
 }
 #bio {
-  margin-top: 50px;
+  margin-top: 60px;
+  border-bottom: solid black 2px;
 }
 #bio h2 {
   text-align: center;
@@ -40,25 +41,43 @@ width: 100%;
   font-family: 'Fira Sans Condensed', sans-serif;
   text-align: center;
   margin-top: 70px;
+  padding-bottom: 50px;
 }
 #hobbies ul {
   list-style-type: none;
   line-height: 40px;
   font-size: 20px;
 }
-#projects {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  font-size: 80px;
-}
+
 .img-fix {
   width: 100%;
 }
 p {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 20px;
+  margin-bottom: 50px;
 }
 .col-md-4 {
   min-height: 700px;
+}
+h2 {
+  font-size: 50px;
+  margin-bottom: 60px;
+  margin-top: 80px;
+  text-align: center;
+}
+#projects {
+  border-top: solid black 2px;
+  margin-top: 80px;
+  padding-top: 50px;
+}
+#education {
+  text-align: center;
+  line-height: 40px;
+  font-family: 'Fira Sans Condensed',sans-serif;
+  font-size: 20px;
+  border-top: solid black 2px;
+}
+ol {
+  list-style-position: inside;
 }
